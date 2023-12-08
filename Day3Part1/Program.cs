@@ -4,7 +4,23 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            if (args.Length > 0)
+            {
+                if (File.Exists(args[0]))
+                {
+                    string[] lines = File.ReadAllLines(args[0]);
+                    Util util = new Util(lines);
+                    Console.WriteLine(util.Search());
+                }
+                else
+                {
+                    Console.WriteLine("Input file not file.  Check Path.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Missing file path in arguments.");
+            }
         }
     }
 }
