@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Day2Part1": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\dmcmillan\\Downloads\\day2.part1.input.txt"
+    }
+  }
+}
