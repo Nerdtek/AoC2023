@@ -67,7 +67,7 @@ namespace Day1Part2
 
             foreach (string digit in digits)
             {
-                int checkInd = check.IndexOf(digit);
+                int checkInd = check.LastIndexOf(digit);
                 if (checkInd > -1)
                 {
                     ind = ind == -1 ? checkInd : checkInd > ind ? checkInd : ind;
