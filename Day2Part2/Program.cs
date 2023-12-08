@@ -8,7 +8,9 @@
             {
                 if (File.Exists(args[0]))
                 {
-
+                    string[] lines = File.ReadAllLines(args[0]);
+                    CubeGame cubeGame = new CubeGame();
+                    Console.WriteLine(cubeGame.RunGames(lines));
                 }
                 else
                 {
