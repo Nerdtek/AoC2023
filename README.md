@@ -8,5 +8,5 @@ Solutions for Advent of Code 2023
 2. Day 4 Part 2
 
 ## WIP
-1. Day 3 Part 2
-2. Day 9 Part1
+1. Day 3 Part 2   haven't really started working on the problem yet
+2. Day 9 Part1    not getting the right answer yet.
