@@ -23,6 +23,8 @@ namespace Day3Part2
             width = lines[0].Length;
             height = lines.Length;
             schem = new string[height, width];
+            num1 = "";
+            num2 = "";
             foreach (string line in lines)
             {
                 y++;

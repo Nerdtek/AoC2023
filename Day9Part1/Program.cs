@@ -8,7 +8,8 @@
             {
                 if (File.Exists(args[0]))
                 {
-
+                    string[] lines = File.ReadAllLines(args[0]);
+                    Util util = new Util(lines);
                 }
                 else
                 {
