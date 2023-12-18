@@ -2,7 +2,7 @@
   "profiles": {
     "Day3Part2": {
       "commandName": "Project",
-      "commandLineArgs": "C:\\Users\\dmcmillan\\Downloads\\day3.part2.example.txt"
+      "commandLineArgs": "C:\\Users\\dmcmillan\\Downloads\\day3.part2.input.txt"
     }
   }
 }
