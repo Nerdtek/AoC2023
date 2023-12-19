@@ -1,4 +1,6 @@
-﻿namespace Day18Part1
+﻿using System.Drawing;
+
+namespace Day18Part1
 {
     internal class Program
     {
@@ -9,7 +11,7 @@
                 if (File.Exists(args[0]))
                 {
                     string[] lines = File.ReadAllLines(args[0]);
-                    //Util util = new Util(lines);
+
                 }
                 else
                 {
