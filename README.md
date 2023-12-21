@@ -7,9 +7,10 @@ Solutions for Advent of Code 2023
 4. Day 3 Part 2
 5. Day 4 Part 1
 6. Day 4 Part 2
+7. Day 5 Part 1
 
 ## WIP
-1. Day 5 Part 1 Redoing in Javascript instead of C#
 1. Day 9 Part 1    not getting the right answer yet.
 2. Day 17 Part 1
 3. Day 18 Part 1
+4. Day 5 Part 2
